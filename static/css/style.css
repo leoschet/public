@@ -1,0 +1,74 @@
+/* elements region */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+body, html { 
+    overflow-y: hidden; 
+}
+
+/* elements region */
+
+/* ids region */
+#menu {
+	position: absolute;
+	width: 100%;
+	top: 47%;
+
+	font-size: 16px;
+}
+
+#menu div a {
+	text-decoration: none;
+	color: black;
+}
+
+#menu div a:hover {
+	color: orange;
+}
+
+#submenu {
+	width: 100%;
+	position: absolute;
+	top: 12%;
+
+	font-size: 14px;
+}
+
+#submenu div a {
+	text-decoration: none;
+	color: black;
+}
+#submenu div a:hover  {
+	color: orange;
+}
+
+#footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0%;
+
+	font-size: 10px;
+}
+
+#footer div p {
+	color: black;
+	opacity: 0.8;
+}
+
+#footer div p a {
+	text-decoration: none;
+
+	color: black;
+}
+
+#footer div p a:hover {
+	color: orange;
+}
+
+/* ids region */
+
+.center-text {
+	text-align: center;
+}
